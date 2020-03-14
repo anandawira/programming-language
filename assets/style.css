@@ -75,6 +75,10 @@ aside{
     font-size: 20px;
 }
 
+#content h1{
+    cursor: pointer;
+}
+
 #content img{
     width: 500px;
 }
