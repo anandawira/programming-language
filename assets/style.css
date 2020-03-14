@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+br{
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
+
+#jumbotron{
+    background-color: #F38169;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+}
+
+#jumbotron h1{
+    text-align: center;
+    line-height: 1.1em;
+    width: 60%;
+    margin: auto;
+    font-size: 70px;
+}
+
+header{
+    display: inline;
+}
+
+nav{
+    background-color: #F38169;
+    opacity: 80%;
+    position: sticky;
+    top: 0;
+}
+
+#navlinks{
+    margin: auto;
+    width: 60%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#navlinks p{
+    text-align: center;
+    flex-grow: 1;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+#navlinks p a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+}
+
+#content,
+aside{
+    margin: 15px;
+}
+
+#content{
+    flex-grow: 1;
+}
+
+#content p{
+    font-size: 20px;
+}
+
+#content img{
+    width: 500px;
+}
+
+article{
+    background-color: #FAF6F4;
+}
+
+aside{
+    flex: 0 0 500px;
+    font-size: 23px;
+    display: inline;
+}
+
+aside table{
+    margin: auto;
+    background-color: #DADDD8;
+    position: sticky;
+    top: 80px;
+}
+
+aside img{
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto 20px auto;
+    width: 40%;
+}
+
+aside td{
+    vertical-align: top;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #4ECDC4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+footer p{
+    align-self: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
