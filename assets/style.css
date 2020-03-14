@@ -123,7 +123,66 @@ footer{
 
 footer p{
     align-self: center;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     font-weight: 600;
+}
+
+@media screen and (max-width: 1315px) {
+    #jumbotron h1{
+        width: 80%;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    aside table{
+        position: static;
+    }
+
+    aside img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #jumbotron{
+        height: 200px;
+    }
+
+    #jumbotron h1{
+        font-size: 50px;
+    }
+
+    #navlinks{
+        width: 90%;
+        height: 40px;
+    }
+
+    #navlinks p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #jumbotron{
+        height: 120px;
+    }
+
+    #jumbotron h1{
+        font-size: 30px;
+    }
+    #content img{
+        width: 200px;
+    }
+
+    aside{
+        display: none;
+    }
+}
+@media screen and (max-width: 300px) {
+    #navlinks{
+        display: none;
+    }
 }
